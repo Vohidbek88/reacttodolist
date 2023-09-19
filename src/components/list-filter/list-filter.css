@@ -1,0 +1,16 @@
+.btnfilter{
+    border: none;
+    background-color: #80808069;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.btnfilter:focus{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+@media(max-width:768px){
+
+    .btnfilter{
+        margin-right: 12px;
+    }
+}

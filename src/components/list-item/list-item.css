@@ -1,0 +1,38 @@
+.listitem{
+    width: 370px;
+    border-bottom: 1px solid gray;
+}
+.trash, .edit{
+    background-color: transparent;
+    border: none;
+}
+.edit{
+    margin: 0 8px;
+}
+.toggle{
+    border-radius: 5px;
+border: none;
+padding: 4px 5px;
+margin-right: 8px;
+}
+.save{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.534);
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.saveinp{
+    outline: none;
+    border: 2px solid rgb(255, 72, 0);
+    border-radius: 8px;
+    width: 250px;
+    font-size: 20px;
+}
+@media(max-width:768px){
+    .listitem{
+width: 300px;
+    }
+    .saveinp{
+        width: 200px;
+    }
+}

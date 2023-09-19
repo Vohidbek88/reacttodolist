@@ -1,0 +1,17 @@
+.container-css{
+    background-color: rgba(128, 128, 128, 0.089);
+    width: 40%;
+    margin: 20px auto;
+    border: 1px solid gray;
+    box-shadow: 8px 8px 8px gray;
+    border-radius: 10px;
+    height: 90vh;
+}
+
+@media(max-width:768px){
+    .container-css{
+        width: 95%;
+        box-shadow: none;
+    }
+
+}

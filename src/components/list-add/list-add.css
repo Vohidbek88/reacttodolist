@@ -1,0 +1,21 @@
+.btnadd{
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+}
+.addinp{
+border: none;
+outline: none;
+padding: 5px 8px;
+}
+.btnmain{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 1px 3px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
